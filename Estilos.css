@@ -9,11 +9,31 @@ table,th,td
 {
   border: 4px solid #b52222;
   border-collapse: collapse;
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 #suma, #resta, #multiplica, #divide
 {
   cursor: pointer;
   padding: 5px;
+  font-size: 14px;
+}
+.botones
+{
+  width: 80px;
+  background-color: black;
+  border-radius: 10px;
+  display: inline-block;
+  border: 3px solid #b52222;
+  transition: 0.3s;
+}
+#multiplica
+{
+  width: 100px;
+}
+.botones:hover
+{
+  transform: scale(1);
+  background-color: #D74932;
+  color: white;
 }
