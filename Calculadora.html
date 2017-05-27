@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Básica</title>
+    <link rel="stylesheet" href="Estilos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  </head>
+  <body>
+    <h1><cite>Calculadora Básica</cite></h1>
+    <table>
+      <tr>
+        <td>Número 1</td>
+        <td><input type="number" id="Cuadro1"></td>
+      </tr>
+      <tr>
+        <td>Número 2</td>
+        <td><input type="number" id="Cuadro2"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="button" value="Sumar" id="suma" />
+          <input type="button" value="Restar" id="resta" />
+          <input type="button" value="Multiplicar" id="multiplica" />
+          <input type="button" value="Dividir" id="divide" />
+        </td>
+      </tr>
+      <tr>
+        <td>Resultado</td>
+        <td id="mostrar"></td>
+      </tr>
+    </table>
+    <p>
+      <audio controls="controls" autoplay="autoplay" loop="loop">
+        <source src="Cancion.mp3" type="audio/mp3" />
+        <source src="Cancion.ogg" type="audio/ogg" />
+      </audio>
+    </p>
+    <p>
+      <i><sub>Programmed By <ins>Juan David Rincón</ins></sub></i><br />
+      <i><sub>06/05/2017</sub></i>
+    </p>
+    <script src="Aritmetica.js"></script>
+  </body>
+</html>
